@@ -15,6 +15,7 @@ namespace WaitTime.Views.Login
         {
             InitializeComponent();
         }
+        // esto es un comentario ( prueba commit )
 
 
 
