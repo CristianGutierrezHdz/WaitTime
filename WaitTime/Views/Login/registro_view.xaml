@@ -1,0 +1,152 @@
+<ContentPage x:Class="WaitTime.Views.Login.registro_view"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="Crear cuenta ">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+			<BoxView x:Name="_bg__registro_view"
+				Color="#ffffff"
+				AbsoluteLayout.LayoutBounds="0,0,428,926" />
+
+			<AbsoluteLayout x:Name="grupo_4"
+				 AbsoluteLayout.LayoutBounds="0,0,474.87182617188,926"
+				 >
+
+				<BoxView x:Name="rect_ngulo_1"
+					Color="#5dbddb"
+					AbsoluteLayout.LayoutBounds="0,0,428,196" />
+				<Label x:Name="__aun_no_estas_registrado_"
+					FontFamily="Segoe UI"
+					FontSize="20"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="101,62,242,41"
+					Text="Aun no estas registrado?"
+				 />
+				<Label x:Name="aqu__puedes_registrarse"
+					FontFamily="Segoe UI"
+					HorizontalTextAlignment="Center"
+					FontSize="35"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="22,90,377,71.5"
+					Text="Aqui puedes Registrarse"
+				 />
+				<BoxView x:Name="rect_ngulo_2"
+					CornerRadius="11"
+					Color="#f6f6f6"
+					AbsoluteLayout.LayoutBounds="79,282,289,42" />
+				<Label x:Name="nombre_completo"
+					FontFamily="Segoe UI"
+					FontSize="16"
+					TextColor="#aea1a1"
+					AbsoluteLayout.LayoutBounds="79,248,163,32"
+					Text="NOMBRE COMPLETO"
+				 />
+				<Label x:Name="contrase_a"
+					FontFamily="Segoe UI"
+					FontSize="16"
+					TextColor="#aea1a1"
+					AbsoluteLayout.LayoutBounds="80,460,114,32"
+					Text="CONTRASEA"
+				 />
+				<Label x:Name="fecha_de_nacimiento"
+					FontFamily="Segoe UI"
+					FontSize="16"
+					TextColor="#aea1a1"
+					AbsoluteLayout.LayoutBounds="83,566,183,32"
+					Text="FECHA DE NACIMIENTO"
+				 />
+
+				<AbsoluteLayout x:Name="bot_n"
+					 AbsoluteLayout.LayoutBounds="116,685,214,49"
+					 >
+
+
+					<AbsoluteLayout x:Name="grupo_1"
+						 AbsoluteLayout.LayoutBounds="0,0,214,49"
+						 >
+
+						<BoxView x:Name="rect_ngulo_6"
+							CornerRadius="17"
+							Color="#5dbddb"
+							AbsoluteLayout.LayoutBounds="0,0,214,49" />
+					</AbsoluteLayout>
+
+					<Label x:Name="registrarse"
+						FontFamily="Arial"
+						FontSize="20"
+						TextColor="#ffffff"
+						AbsoluteLayout.LayoutBounds="56,14,117,36"
+						Text="Registrarse"
+					 />
+				</AbsoluteLayout>
+
+				<BoxView x:Name="rect_ngulo_7"
+					Color="#5dbddb"
+					AbsoluteLayout.LayoutBounds="0,821,430,107" />
+				
+				<Label x:Name="julio_fernando_sanchez_"
+					FontFamily="Segoe UI"
+					FontSize="16"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="96,290,183,32"
+					Text="Julio Fernando Sanchez "
+				 />
+
+				<AbsoluteLayout x:Name="compos_de_texto"
+					 AbsoluteLayout.LayoutBounds="79,354,287,74"
+					 >
+
+					<Label x:Name="correro_electr_nico"
+						FontFamily="Segoe UI"
+						FontSize="16"
+						TextColor="#aea1a1"
+						AbsoluteLayout.LayoutBounds="1,0,189,32"
+						Text="CORRERO ELECTRNICO"
+					 />
+					<BoxView x:Name="rect_ngulo_9"
+						CornerRadius="11"
+						Color="#f6f6f6"
+						AbsoluteLayout.LayoutBounds="0,34,289,42" />
+					<Label x:Name="example_outlock_com"
+						FontFamily="Segoe UI"
+						FontSize="16"
+						TextColor="#000000"
+						AbsoluteLayout.LayoutBounds="17,42,174,32"
+						Text="example@outlock.com"
+					 />
+				</AbsoluteLayout>
+
+				<BoxView x:Name="rect_ngulo_10"
+					CornerRadius="11"
+					Color="#f6f6f6"
+					AbsoluteLayout.LayoutBounds="79,494,289,42" />
+				<Label x:Name="___________"
+					FontFamily="Segoe UI"
+					FontSize="16"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="98,504,80,32"
+					Text="**********"
+				 />
+				<BoxView x:Name="rect_ngulo_11"
+					CornerRadius="11"
+					Color="#f6f6f6"
+					AbsoluteLayout.LayoutBounds="79,600,289,42" />
+				<Label x:Name="_07_03_2023"
+					FontFamily="Segoe UI"
+					FontSize="16"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="96,608,95,32"
+					Text="07-03-2023"
+				 />
+			</AbsoluteLayout>
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

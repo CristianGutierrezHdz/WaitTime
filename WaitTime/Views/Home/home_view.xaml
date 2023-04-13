@@ -1,0 +1,134 @@
+<ContentPage x:Class="WaitTime.Views.Home.home_view"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="Principal">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+			<BoxView x:Name="_bg__home_view"
+				Color="#ffffff"
+				AbsoluteLayout.LayoutBounds="0,0,428,926" />
+
+			<AbsoluteLayout x:Name="grupo_3"
+				 AbsoluteLayout.LayoutBounds="0,0,517,931">
+
+				<BoxView x:Name="elipse_4"
+					Color="#5dbddb"
+					AbsoluteLayout.LayoutBounds="109,171,107,86" />
+				<BoxView x:Name="rect_ngulo_19"
+					Color="#5dbddb"
+					AbsoluteLayout.LayoutBounds="0,0,428,196" />
+				<Label x:Name="waittime"
+					FontFamily="Segoe UI"
+					HorizontalTextAlignment="Center"
+					FontSize="35"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="174,68,149,71.5"
+					Text="WaitTime" />
+                
+				<Image x:Name="hourglass"
+					Source="hourglass.png"
+					AbsoluteLayout.LayoutBounds="86,21,94,94" />
+				<Label x:Name="bienvenido_de_nuevo_fernando_"
+					FontFamily="Segoe UI"
+					FontSize="21"
+					TextColor="#ffffff"
+					AbsoluteLayout.LayoutBounds="56,129,310,42.5"
+					Text="Bienvenido de nuevo Fernando!" />
+				
+                <Label x:Name="__qu__quieres_hacer__"
+					FontFamily="Segoe UI"
+					FontAttributes="Bold"
+					FontSize="18"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="121,210,182,37"
+					Text="Qu quieres hacer? "
+				 />
+				<BoxView x:Name="rect_ngulo_20"
+					CornerRadius="12"
+					Color="#5dbddb"
+					AbsoluteLayout.LayoutBounds="51,292,329,61" />
+				<Label x:Name="reporte_diario"
+					FontFamily="Segoe UI"
+					FontSize="16"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="154,310,133,32"
+					Text="REPORTE DIARIO"
+				 />
+				<BoxView x:Name="rect_ngulo_21"
+					CornerRadius="12"
+					Color="#95adef"
+					AbsoluteLayout.LayoutBounds="51,393,329,61" />
+				<Label x:Name="gestionar_dispositivos"
+					FontFamily="Segoe UI"
+					FontSize="16"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="154,409,202,32"
+					Text="GESTIONAR DISPOSITIVOS"
+				 />
+				<BoxView x:Name="rect_ngulo_23"
+					CornerRadius="12"
+					Color="#bddb5d"
+					AbsoluteLayout.LayoutBounds="51,585,329,61" />
+				<BoxView x:Name="rect_ngulo_22"
+					CornerRadius="12"
+					Color="#5ddbba"
+					AbsoluteLayout.LayoutBounds="51,484,329,61" />
+				<Label x:Name="gestionar_apliaciones"
+					FontFamily="Segoe UI"
+					FontSize="16"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="154,502,197,32"
+					Text="GESTIONAR APLIACIONES"
+				 />
+				<Label x:Name="ver_mi_calendario"
+					FontFamily="Segoe UI"
+					FontSize="16"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="162,603,163,32"
+					Text="VER MI CALENDARIO"
+				 />
+				<BoxView x:Name="elipse_5"
+					Color="#5dbddb"
+					AbsoluteLayout.LayoutBounds="37,171,61,49" />
+				<Image x:Name="l_nea_1"
+					Source="l_nea_1.png"
+					AbsoluteLayout.LayoutBounds="52,624,258,1" />
+				<BoxView x:Name="rect_ngulo_24"
+					Color="#5dbddb"
+					AbsoluteLayout.LayoutBounds="0,829,428,102" />
+				<Image x:Name="calendario"
+					Source="calendario.png"
+					AbsoluteLayout.LayoutBounds="70,591,49,49" />
+				<Image x:Name="trazado_1"
+					Source="trazado_1.png"
+					AbsoluteLayout.LayoutBounds="52,523,288,1" />
+				<Image x:Name="configuracion"
+					Source="configuracion.png"
+					AbsoluteLayout.LayoutBounds="70,489,49,49" />
+				<Image x:Name="trazado_2"
+					Source="trazado_2.png"
+					AbsoluteLayout.LayoutBounds="53,430,290,1" />
+				<Image x:Name="gestion_de_proyectos"
+					Source="gestion_de_proyectos.png"
+					AbsoluteLayout.LayoutBounds="67,397,52,52" />
+				<Image x:Name="trazado_3"
+					Source="trazado_3.png"
+					AbsoluteLayout.LayoutBounds="51,331,230,1" />
+				<Image x:Name="reporte"
+					Source="reporte.png"
+					AbsoluteLayout.LayoutBounds="66,299,43,43" />
+				<BoxView x:Name="rect_ngulo_18"
+					Color="#ffffff"
+					AbsoluteLayout.LayoutBounds="513,849,6,3" />
+			</AbsoluteLayout>
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>
