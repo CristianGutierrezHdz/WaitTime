@@ -1,10 +1,10 @@
-<ContentPage x:Class="WaitTime.Views.AdobeDesing.calendario"
+<ContentPage x:Class="WaitTime.Views.Home.calendario"
 	xmlns="http://xamarin.com/schemas/2014/forms"
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	mc:Ignorable="d"
-	Title="Mi calendario">
+	Title="iphone_12_pro_max___1">
 	<ContentPage.Content>
 		<ScrollView>
 		<AbsoluteLayout>
@@ -28,25 +28,19 @@
 					FontSize="20"
 					TextColor="#000000"
 					AbsoluteLayout.LayoutBounds="0,0,56,41"
-					Text="Fecha"
+					Text="Date"
 				 />
 				<BoxView x:Name="date_text_box"
 					CornerRadius="3"
-					Color="#86F3C4"
-					AbsoluteLayout.LayoutBounds="0,40,65,58" />
+                         
+					Color="#ffffff"
+					AbsoluteLayout.LayoutBounds="0,40,356,58" />
 				<BoxView x:Name="date_picjer_bg"
 					CornerRadius="3"
-					
 					Color="#ffffff"
 					AbsoluteLayout.LayoutBounds="0,129,356,327" />
 
-                <BoxView x:Name="date_mont_box"
-					CornerRadius="3"
-					Color="#33FFA7"
-					AbsoluteLayout.LayoutBounds="0,120,325,40" />
-                    <!--HasShadow="true-->
-
-                    <AbsoluteLayout x:Name="grupo_107"
+				<AbsoluteLayout x:Name="grupo_107"
 					 AbsoluteLayout.LayoutBounds="22,169,314.28570556641,271"
 					 >
 
@@ -92,7 +86,6 @@
 								Text="29"
 							 />
 						</AbsoluteLayout>
-                        
 
 
 						<AbsoluteLayout x:Name="grupo_73"
@@ -112,63 +105,9 @@
 								Text="30"
 							 />
 						</AbsoluteLayout>
-                        
-                        <AbsoluteLayout x:Name="grupo_74"
-							 AbsoluteLayout.LayoutBounds="120,0,44.285705566406,47"
-							 >
-
-							<BoxView x:Name="date_cell_ek17"
-								Opacity="0"
-								Color="#ffffff"
-								AbsoluteLayout.LayoutBounds="0,0,44.29,47" />
-							<Label x:Name="_17"
-								FontFamily="Segoe UI"
-								HorizontalTextAlignment="Center"
-								FontSize="17"
-								TextColor="#010101"
-								AbsoluteLayout.LayoutBounds="10,13,23,33.5"
-								Text="1"
-							 />
-						</AbsoluteLayout>
-                        
-                       <AbsoluteLayout x:Name="grupo_75"
-							 AbsoluteLayout.LayoutBounds="165,0,44.285705566406,47"
-							 >
-
-							<BoxView x:Name="date_cell_ek17"
-								Opacity="0"
-								Color="#ffffff"
-								AbsoluteLayout.LayoutBounds="0,0,44.29,47" />
-							<Label x:Name="_17"
-								FontFamily="Segoe UI"
-								HorizontalTextAlignment="Center"
-								FontSize="17"
-								TextColor="#010101"
-								AbsoluteLayout.LayoutBounds="10,13,23,33.5"
-								Text="2"
-							 />
-						</AbsoluteLayout>
-                        
-                        <AbsoluteLayout x:Name="grupo_75"
-							 AbsoluteLayout.LayoutBounds="210,0,44.285705566406,47"
-							 >
-
-							<BoxView x:Name="date_cell_ek17"
-								Opacity="0"
-								Color="#ffffff"
-								AbsoluteLayout.LayoutBounds="0,0,44.29,47" />
-							<Label x:Name="_17"
-								FontFamily="Segoe UI"
-								HorizontalTextAlignment="Center"
-								FontSize="17"
-								TextColor="#010101"
-								AbsoluteLayout.LayoutBounds="10,13,23,33.5"
-								Text="3"
-							 />
-						</AbsoluteLayout>
 
 
-                        <AbsoluteLayout x:Name="grupo_77"
+						<AbsoluteLayout x:Name="grupo_77"
 							 AbsoluteLayout.LayoutBounds="270,0,44.285705566406,47"
 							 >
 
@@ -198,24 +137,7 @@
 						</AbsoluteLayout>
 
 
-						<AbsoluteLayout x:Name="grupo_105"
-							 AbsoluteLayout.LayoutBounds="270,224,44.285705566406,47"
-							 >
-
-							<BoxView x:Name="date_cell_ek5"
-								Opacity="0"
-								Color="#ffffff"
-								AbsoluteLayout.LayoutBounds="0,0,44.29,47" />
-							<Label x:Name="_1"
-								FontFamily="Segoe UI"
-								HorizontalTextAlignment="Center"
-								FontSize="17"
-								TextColor="#8ecece"
-								AbsoluteLayout.LayoutBounds="14,13,15,33.5"
-								Text="1"
-							 />
-						</AbsoluteLayout>
-
+						
 					</AbsoluteLayout>
 
 				</AbsoluteLayout>
@@ -259,14 +181,7 @@
 						AbsoluteLayout.LayoutBounds="0,0,58,41"
 						Text="2023"
 					 />
-                     <Label x:Name="Enero"
-						FontFamily="Segoe UI"
-						FontSize="20"
-						TextColor="#000000"
-						AbsoluteLayout.LayoutBounds="-55,0,65,41"
-						Text="Enero"
-					 />
-                    </AbsoluteLayout>
+				</AbsoluteLayout>
 
 			</AbsoluteLayout>
 

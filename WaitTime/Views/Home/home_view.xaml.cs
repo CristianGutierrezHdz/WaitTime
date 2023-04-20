@@ -6,7 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 using WaitTime.Views.AdobeDesing;
 using WaitTime.Views.Login;
-using WaitTime.Views.Login;
 using Xamarin.Forms;
 
 namespace WaitTime.Views.Home
@@ -25,11 +24,6 @@ namespace WaitTime.Views.Home
         private async void Handle_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new calendario());
-        }
-
-        private async void Handle_Clicked_apps(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new list_apps());
         }
 
         private async void Handle_Clicked_apps(object sender, EventArgs e)

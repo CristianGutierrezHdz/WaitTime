@@ -82,8 +82,13 @@
 					FontSize="16"
 					TextColor="#000000"
 					AbsoluteLayout.LayoutBounds="154,502,197,32"
-					Text="GESTIONAR APLIACIONES"
-				 />
+					Text="GESTIONAR APLIACIONES">
+
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Handle_Clicked_apps" />
+                        </Label.GestureRecognizers>
+                    </Label>
+				
 				<Label x:Name="ver_mi_calendario"
 					FontFamily="Segoe UI"
 					FontSize="16"
