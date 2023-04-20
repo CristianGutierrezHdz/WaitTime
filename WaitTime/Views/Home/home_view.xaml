@@ -84,14 +84,18 @@
 					AbsoluteLayout.LayoutBounds="154,502,197,32"
 					Text="GESTIONAR APLIACIONES"
 				 />
-				<Label x:Name="ver_mi_calendario"
+                    <Label x:Name="ver_mi_calendario"
 					FontFamily="Segoe UI"
 					FontSize="16"
 					TextColor="#000000"
 					AbsoluteLayout.LayoutBounds="162,603,163,32"
-					Text="VER MI CALENDARIO"
-				 />
-				<BoxView x:Name="elipse_5"
+					Text="VER MI CALENDARIO">
+
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Handle_Clicked" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                    <BoxView x:Name="elipse_5"
 					Color="#5dbddb"
 					AbsoluteLayout.LayoutBounds="37,171,61,49" />
 				<Image x:Name="l_nea_1"

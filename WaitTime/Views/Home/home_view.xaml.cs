@@ -4,6 +4,8 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WaitTime.Views.AdobeDesing;
+using WaitTime.Views.Login;
 using Xamarin.Forms;
 
 namespace WaitTime.Views.Home
@@ -17,6 +19,11 @@ namespace WaitTime.Views.Home
         public home_view()
         {
             InitializeComponent();
+        }
+
+        private async void Handle_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new calendario());
         }
     }
 }

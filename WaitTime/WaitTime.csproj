@@ -11,12 +11,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\AdobeDesing\calendario.xaml.cs">
+      <DependentUpon>calendario.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\AdobeDesing\registro.xaml.cs">
       <DependentUpon>registro.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Views\AdobeDesing\calendario.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\AdobeDesing\registro.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

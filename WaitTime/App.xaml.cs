@@ -18,8 +18,9 @@ namespace WaitTime
             DependencyService.Register<MockDataStore>();
 
             MainPage = new NavigationPage(new login_view());
-        }
 
+        }
+       
         protected override void OnStart()
         {
         }
