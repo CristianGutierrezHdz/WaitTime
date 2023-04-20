@@ -77,14 +77,17 @@
 					CornerRadius="12"
 					Color="#5ddbba"
 					AbsoluteLayout.LayoutBounds="51,484,329,61" />
-				<Label x:Name="gestionar_apliaciones"
+                    <Label x:Name="gestionar_apliaciones"
 					FontFamily="Segoe UI"
 					FontSize="16"
 					TextColor="#000000"
 					AbsoluteLayout.LayoutBounds="154,502,197,32"
-					Text="GESTIONAR APLIACIONES"
-				 />
-				<Label x:Name="ver_mi_calendario"
+					Text="GESTIONAR APLIACIONES">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Handle_Clicked_apps" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                    <Label x:Name="ver_mi_calendario"
 					FontFamily="Segoe UI"
 					FontSize="16"
 					TextColor="#000000"

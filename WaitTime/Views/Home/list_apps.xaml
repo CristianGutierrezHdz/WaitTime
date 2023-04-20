@@ -1,0 +1,119 @@
+<ContentPage x:Class="WaitTime.Views.Home.list_apps"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="Lista de aplicaciones">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+			<BoxView x:Name="_bg__iphone_12_pro_max___4"
+				Color="#ffffff"
+				AbsoluteLayout.LayoutBounds="0,0,428,926" />
+			<Image x:Name="candado"
+				Source="candado.png"
+				AbsoluteLayout.LayoutBounds="349,281,47,47" />
+			<BoxView x:Name="rect_ngulo_19"
+				Color="#5dbddb"
+				AbsoluteLayout.LayoutBounds="0,0,428,190" />
+			<Label x:Name="waittime"
+				FontFamily="Segoe UI"
+				HorizontalTextAlignment="Center"
+				FontSize="35"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="174,87,149,71.5"
+				Text="WaitTime"
+			 />
+			<Image x:Name="hourglass"
+				Source="hourglass.png"
+				AbsoluteLayout.LayoutBounds="96,40,94,94" />
+			<Label x:Name="aplicaciones"
+				FontFamily="Segoe UI"
+				FontSize="21"
+				TextColor="#ffffff"
+				AbsoluteLayout.LayoutBounds="157,141,131,42.5"
+				Text="Aplicaciones"
+			 />
+			<BoxView x:Name="rect_ngulo_24"
+				Color="#5dbddb"
+				AbsoluteLayout.LayoutBounds="0,829,428,102" />
+			<Image x:Name="aplicacion_de_musica"
+				Source="aplicacion_de_musica.png"
+				AbsoluteLayout.LayoutBounds="66,576,45,45" />
+			<Image x:Name="whatsapp"
+				Source="whatsapp.png"
+				AbsoluteLayout.LayoutBounds="60,290,46,46" />
+			<Image x:Name="l_nea_2"
+				Source="l_nea_2.png"
+				AbsoluteLayout.LayoutBounds="190,335.5,200,1" />
+			<Label x:Name="whatsapp_ek1"
+				FontFamily="Segoe UI"
+				FontSize="21"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="111,301,112,42.5"
+				Text="WhatsApp"
+			 />
+			<Image x:Name="informacion"
+				Source="informacion.png"
+				AbsoluteLayout.LayoutBounds="224,288,31,31" />
+			<Image x:Name="candado_abierto"
+				Source="candado_abierto.png"
+				AbsoluteLayout.LayoutBounds="350,372,46,46" />
+			<Image x:Name="l_nea_3"
+				Source="l_nea_3.png"
+				AbsoluteLayout.LayoutBounds="192,424.5,200,1" />
+			<Label x:Name="tik_tok"
+				FontFamily="Segoe UI"
+				FontSize="21"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="117,390,80,42.5"
+				Text="Tik Tok"
+			 />
+			<Image x:Name="informacion_ek1"
+				Source="informacion_ek1.png"
+				AbsoluteLayout.LayoutBounds="196,377,31,31" />
+			<Image x:Name="tik_tok_ek1"
+				Source="tik_tok_ek1.png"
+				AbsoluteLayout.LayoutBounds="66,375,45,45" />
+			<Image x:Name="l_nea_4"
+				Source="l_nea_4.png"
+				AbsoluteLayout.LayoutBounds="191,521.5,200,1" />
+			<Label x:Name="facebook"
+				FontFamily="Segoe UI"
+				FontSize="21"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="115,492,104,42.5"
+				Text="Facebook"
+			 />
+			<Image x:Name="informacion_ek2"
+				Source="informacion_ek2.png"
+				AbsoluteLayout.LayoutBounds="214,485,31,31" />
+			<Image x:Name="facebook_ek1"
+				Source="facebook_ek1.png"
+				AbsoluteLayout.LayoutBounds="65,478,44,44" />
+			<Image x:Name="candado_ek1"
+				Source="candado_ek1.png"
+				AbsoluteLayout.LayoutBounds="349,469,47,47" />
+			<Image x:Name="l_nea_5"
+				Source="l_nea_5.png"
+				AbsoluteLayout.LayoutBounds="192,620.5,200,1" />
+			<Label x:Name="openmusic"
+				FontFamily="Segoe UI"
+				FontSize="21"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="116,589,121,42.5"
+				Text="OpenMusic"
+			 />
+			<Image x:Name="informacion_ek3"
+				Source="informacion_ek3.png"
+				AbsoluteLayout.LayoutBounds="231,582,31,31" />
+			<Image x:Name="candado_ek2"
+				Source="candado_ek2.png"
+				AbsoluteLayout.LayoutBounds="350,566,47,47" />
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

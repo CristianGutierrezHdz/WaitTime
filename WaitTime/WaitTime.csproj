@@ -14,6 +14,9 @@
     <Compile Update="Views\AdobeDesing\registro.xaml.cs">
       <DependentUpon>registro.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\Home\list_apps.xaml.cs">
+      <DependentUpon>list_apps.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -21,6 +24,9 @@
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Home\home_view.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Home\list_apps.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Login\login_view.xaml">
