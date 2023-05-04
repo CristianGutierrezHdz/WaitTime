@@ -24,6 +24,12 @@ namespace WaitTime.Views.Home
         public bool tipoTototal_time = true;
         public bool candadotipo = true;
 
+        public int positionYImage = 494; // 68
+        public int positionLabel = 490; // 62
+        public int positionInfo = 484;  //58
+        public int positionLinea = 527; // 64
+        public int positionCandado = 487 ; // 62
+
         public List_apps()
         {
             Texto = "Tiempo consumido: " + tiempo.ToString("hh\\:mm");
@@ -31,35 +37,179 @@ namespace WaitTime.Views.Home
 
             InitializeComponent();
 
-
-
-
             var miLabel = this.FindByName<Label>("miLabel");
             miLabel.BindingContext = this;
             miLabel.SetBinding(Label.TextProperty, nameof(Texto));
 
 
+
+            /*
+            // Crear la imagen de Whatsapp
+            var whatsapp = new Image()
+            {
+                Source = "whatsapp.png"
+            };
+            AbsoluteLayout.SetLayoutBounds(whatsapp, new Rectangle(56, 358, 39, 39));
+
+            // Crear la etiqueta de Whatsapp
+            var whatsapp_ek1 = new Label()
+            {
+                FontFamily = "Segoe UI",
+                FontSize = 19,
+                TextColor = Color.Black,
+                Text = "WhatsApp"
+            };
+            AbsoluteLayout.SetLayoutBounds(whatsapp_ek1, new Rectangle(101, 366, 102, 39.5));
+
+            // Crear la imagen de Información
+            var informacion = new Image()
+            {
+                Source = "informacion.png"
+            };
+            AbsoluteLayout.SetLayoutBounds(informacion, new Rectangle(200, 368, 23, 23));
+
+            // Crear la imagen de la línea
+            var l_nea_2 = new Image()
+            {
+                Source = "l_nea_2.png"
+            };
+            AbsoluteLayout.SetLayoutBounds(l_nea_2, new Rectangle(149, 399.5, 200, 1));
+
+            // Crear la imagen del candado con reconocedor de gestos
+            var candado = new Image()
+            {
+                Source = "candado.png"
+            };
+            AbsoluteLayout.SetLayoutBounds(candado, new Rectangle(340, 363, 32, 32));
+
+            var tapGestureRecognizer = new TapGestureRecognizer();
+            tapGestureRecognizer.Tapped += OnImageTapped;
+            candado.GestureRecognizers.Add(tapGestureRecognizer);
+
+            // Agregar los elementos al AbsoluteLayout
+            miAbsoluteLayout.Children.Add(whatsapp);
+            miAbsoluteLayout.Children.Add(whatsapp_ek1);
+            miAbsoluteLayout.Children.Add(informacion);
+            miAbsoluteLayout.Children.Add(l_nea_2);
+            miAbsoluteLayout.Children.Add(candado);
+
+            */
+
+
+
+
+
             // Agregar varios elementos Label dinámicamente
             for (int i = 0; i < 4; i++)
             {
-                var miLabell = new Label()
+                // Crear la imagen de Whatsapp
+                var whatsapp = new Image()
+                {
+                    Source = "tocar.png"
+                };
+                AbsoluteLayout.SetLayoutBounds(whatsapp, new Rectangle(56, positionYImage, 39, 39));
+
+                // Crear la etiqueta de Whatsapp
+                var whatsapp_ek1 = new Label()
                 {
                     FontFamily = "Segoe UI",
-                    FontSize = 21,
+                    FontSize = 19,
                     TextColor = Color.Black,
-                    HorizontalOptions = LayoutOptions.Start,
-                    VerticalOptions = LayoutOptions.Start,
+                    Text = $"Aplicacion {i}"
                 };
-                miLabell.Text = $"Elemento {i}";
+                AbsoluteLayout.SetLayoutBounds(whatsapp_ek1, new Rectangle(99, positionLabel, 110, 39.5));
 
-                // Agregar espacio entre cada Label
-                if (i > 0) // asegurarse de que no se aplique el espacio al primer elemento
+                // Crear la imagen de Información
+                var informacion = new Image()
                 {
-                    miStackLayout.Spacing = 40;
-                }
+                    Source = "informacion.png"
+                };
+                AbsoluteLayout.SetLayoutBounds(informacion, new Rectangle(200, positionInfo, 23, 23));
 
-                miStackLayout.Children.Add(miLabell);
-            }
+                // Crear la imagen de la línea
+                var l_nea_2 = new Image()
+                {
+                    Source = "l_nea_2.png"
+                };
+                AbsoluteLayout.SetLayoutBounds(l_nea_2, new Rectangle(149, positionLinea, 200, 1));
+
+                // Crear la imagen del candado con reconocedor de gestos
+                var candado = new Image()
+                {
+                    Source = "candado.png"
+                };
+                AbsoluteLayout.SetLayoutBounds(candado, new Rectangle(340, positionCandado, 32, 32));
+
+                var tapGestureRecognizer = new TapGestureRecognizer();
+                tapGestureRecognizer.Tapped += OnImageTapped;
+                candado.GestureRecognizers.Add(tapGestureRecognizer);
+
+                // Agregar los elementos al AbsoluteLayout
+                miAbsoluteLayout.Children.Add(whatsapp);
+                miAbsoluteLayout.Children.Add(whatsapp_ek1);
+                miAbsoluteLayout.Children.Add(informacion);
+                miAbsoluteLayout.Children.Add(l_nea_2);
+                miAbsoluteLayout.Children.Add(candado);
+
+
+
+
+                 positionYImage += 68; // 
+                positionLabel += 62; // 
+                positionInfo += 58;  //
+                positionLinea += 64; // 
+                positionCandado += 62; // 
+
+
+
+
+
+
+
+
+
+
+
+
+        /*
+        var miImagen = new Image()
+        {
+            Source = "calendario.png",
+        };
+
+        AbsoluteLayout.SetLayoutBounds(miImagen, new Rectangle(59, positionYImage, 33, 33));
+
+
+        var miLabell = new Label()
+        {
+            FontFamily = "Segoe UI",
+            FontSize = 21,
+            TextColor = Color.Black,
+            HorizontalOptions = LayoutOptions.Start,
+            VerticalOptions = LayoutOptions.Start,
+            Text = $"Aplicacion {i}"
+        };
+
+
+        // Agregar espacio entre cada Label
+        if (i > 0) // asegurarse de que no se aplique el espacio al primer elemento
+        {
+
+            miStackLayout.Spacing = 40;
+            miStackLayout.Children.Add(miImagen);
+            miStackLayout.Children.Add(miLabell);
+
+
+
+        } else // Los elemtos se agregan sin espacio
+        {
+            miStackLayout.Children.Add(miImagen);
+            miStackLayout.Children.Add(miLabell);
+
+        }
+        */
+
+    }
 
             /*
 
