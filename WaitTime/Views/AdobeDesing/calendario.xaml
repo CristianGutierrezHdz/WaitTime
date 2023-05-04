@@ -98,9 +98,12 @@
                     </StackLayout>
 
                     <StackLayout>
-                        <DatePicker x:Name="miDatePicker" 
-						Format="dd/MM/yyyy"
-						Date="{Binding FechaSeleccionada}" />
+                        <DatePicker x:Name="miDatePicker"
+                                    Format="dd/MM/yyyy"
+                                    Date="{Binding FechaSeleccionada}"
+                                    TextColor="Black">
+
+                        </DatePicker>
                         <Button Text="Reservar" Clicked="OnReservarClicked">
                             <Button.Style>
                                 <Style TargetType="Button">
@@ -118,7 +121,7 @@
 						   VerticalOptions="EndAndExpand" />
                     </StackLayout>
                     <Image x:Name="caledar"
-					Source="calendario_perrona.png"
+					Source="calendario_img_perrona.png"
 					AbsoluteLayout.LayoutBounds="70,-10,49,49" />
 
                 </AbsoluteLayout>
