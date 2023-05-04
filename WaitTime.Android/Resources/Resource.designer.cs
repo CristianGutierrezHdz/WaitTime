@@ -20772,25 +20772,28 @@ namespace WaitTime.Droid
 			public const int tik_tok_ek1 = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int tooltip_frame_dark = 2131165396;
+			public const int tocar = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int tooltip_frame_light = 2131165397;
+			public const int tooltip_frame_dark = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int trazado_1 = 2131165398;
+			public const int tooltip_frame_light = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int trazado_2 = 2131165399;
+			public const int trazado_1 = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int trazado_3 = 2131165400;
+			public const int trazado_2 = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int whatsapp = 2131165401;
+			public const int trazado_3 = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int xamarin_logo = 2131165402;
+			public const int whatsapp = 2131165402;
+			
+			// aapt resource value: 0x7F0700DB
+			public const int xamarin_logo = 2131165403;
 			
 			static Drawable()
 			{
