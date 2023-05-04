@@ -1,4 +1,4 @@
-﻿using Autofac;
+using Autofac;
 using Autofac.Core;
 using System;
 using WaitTime.Services;
@@ -12,6 +12,11 @@ using System.Linq;
 using System.Collections.Generic;
 using Xamarin.Forms.PlatformConfiguration;
 
+[assembly: ExportFont("Montserrat-Bold.ttf",Alias="Montserrat-Bold")]
+     [assembly: ExportFont("Montserrat-Medium.ttf", Alias = "Montserrat-Medium")]
+     [assembly: ExportFont("Montserrat-Regular.ttf", Alias = "Montserrat-Regular")]
+     [assembly: ExportFont("Montserrat-SemiBold.ttf", Alias = "Montserrat-SemiBold")]
+     [assembly: ExportFont("UIFontIcons.ttf", Alias = "FontIcons")]
 namespace WaitTime
 {
     public partial class App : Application
@@ -23,7 +28,7 @@ namespace WaitTime
 
             DependencyService.Register<MockDataStore>();
 
-            MainPage = new NavigationPage(new login_view());
+            MainPage = new NavigationPage(new LoginPage());
 
         }
 
