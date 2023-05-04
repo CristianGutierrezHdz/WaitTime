@@ -1,4 +1,7 @@
-﻿using Xamarin.Forms.Internals;
+﻿using System;
+using WaitTime.Views.Home;
+using WaitTime.Views.Login;
+using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
 
 namespace WaitTime.Views
@@ -17,5 +20,11 @@ namespace WaitTime.Views
         {
             this.InitializeComponent();
         }
+
+        private async void HomeClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new home_view());
+        }
+
     }
 }
