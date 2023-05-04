@@ -4,190 +4,128 @@
 	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	mc:Ignorable="d"
-	Title="iphone_12_pro_max___1">
-	<ContentPage.Content>
-		<ScrollView>
-		<AbsoluteLayout>
-			<BoxView x:Name="_bg__iphone_12_pro_max___1"
+	Title="Calendario">
+    <ContentPage.Content>
+        <ScrollView>
+            <AbsoluteLayout>
+
+                <BoxView x:Name="_bg__iphone_12_pro_max___1"
 				Color="#ffffff"
 				AbsoluteLayout.LayoutBounds="0,0,428,926" />
 
-			<AbsoluteLayout x:Name="grupo_106"
+                <AbsoluteLayout x:Name="grupo_106"
 				 AbsoluteLayout.LayoutBounds="37,235,354,454"
 				 >
 
-				<Label x:Name="dd_mm_yyyy"
+                    <Label x:Name="dd_mm_yyyy"
 					FontFamily="Segoe UI"
 					FontSize="20"
 					TextColor="#000000"
 					AbsoluteLayout.LayoutBounds="66,53,139,41"
 					Text="DD/MM/YYYY"
 				 />
-				<Label x:Name="date"
+                    <Label x:Name="date"
 					FontFamily="Segoe UI"
-					FontSize="20"
+					FontSize="12"
 					TextColor="#000000"
 					AbsoluteLayout.LayoutBounds="0,0,56,41"
 					Text="Date"
 				 />
-				<BoxView x:Name="date_text_box"
+                    <BoxView x:Name="date_text_box"
 					CornerRadius="3"
                          
 					Color="#ffffff"
 					AbsoluteLayout.LayoutBounds="0,40,356,58" />
-				<BoxView x:Name="date_picjer_bg"
+                    <BoxView x:Name="date_picjer_bg"
 					CornerRadius="3"
 					Color="#ffffff"
 					AbsoluteLayout.LayoutBounds="0,129,356,327" />
 
-				<AbsoluteLayout x:Name="grupo_107"
+                    <AbsoluteLayout x:Name="grupo_107"
 					 AbsoluteLayout.LayoutBounds="22,169,314.28570556641,271"
 					 >
 
 
-					<AbsoluteLayout x:Name="__calendari_date_cells_group"
+                        <AbsoluteLayout x:Name="__calendari_date_cells_group"
 						 AbsoluteLayout.LayoutBounds="0,0,314.28570556641,271"
 						 >
 
 
-						<AbsoluteLayout x:Name="grupo_71"
-							 AbsoluteLayout.LayoutBounds="0,0,44.285713195801,47"
-							 >
-
-							<BoxView x:Name="date_cell"
-								Opacity="0"
-								Color="#ffffff"
-								AbsoluteLayout.LayoutBounds="0,0,44.29,47" />
-							<Label x:Name="_28"
-								FontFamily="Segoe UI"
-								HorizontalTextAlignment="Center"
-								FontSize="17"
-								TextColor="#8ecece"
-								AbsoluteLayout.LayoutBounds="10,13,23,33.5"
-								Text="28"
-							 />
-						</AbsoluteLayout>
-
-
-						<AbsoluteLayout x:Name="grupo_72"
-							 AbsoluteLayout.LayoutBounds="45,0,44.285705566406,47"
-							 >
-
-							<BoxView x:Name="date_cell_ek1"
-								Opacity="0"
-								Color="#ffffff"
-								AbsoluteLayout.LayoutBounds="0,0,44.29,47" />
-							<Label x:Name="_29"
-								FontFamily="Segoe UI"
-								HorizontalTextAlignment="Center"
-								FontSize="17"
-								TextColor="#8ecece"
-								AbsoluteLayout.LayoutBounds="10,13,23,33.5"
-								Text="29"
-							 />
-						</AbsoluteLayout>
-
-
-						<AbsoluteLayout x:Name="grupo_73"
-							 AbsoluteLayout.LayoutBounds="90,0,44.285705566406,47"
-							 >
-
-							<BoxView x:Name="date_cell_ek2"
-								Opacity="0"
-								Color="#ffffff"
-								AbsoluteLayout.LayoutBounds="0,0,44.29,47" />
-							<Label x:Name="_30"
-								FontFamily="Segoe UI"
-								HorizontalTextAlignment="Center"
-								FontSize="17"
-								TextColor="#8ecece"
-								AbsoluteLayout.LayoutBounds="10,13,23,33.5"
-								Text="30"
-							 />
-						</AbsoluteLayout>
-
-
-						<AbsoluteLayout x:Name="grupo_77"
-							 AbsoluteLayout.LayoutBounds="270,0,44.285705566406,47"
-							 >
-
-							<BoxView x:Name="date_cell_ek3"
-								Opacity="0"
-								Color="#ffffff"
-								AbsoluteLayout.LayoutBounds="0,0,44.29,47" />
-							<Label x:Name="_4"
-								FontFamily="Segoe UI"
-								HorizontalTextAlignment="Center"
-								FontSize="17"
-								TextColor="#010101"
-								AbsoluteLayout.LayoutBounds="14,13,15,33.5"
-								Text="4"
-							 />
-						</AbsoluteLayout>
-
-
-						<AbsoluteLayout x:Name="grupo_84"
+                            <AbsoluteLayout x:Name="grupo_84"
 							 AbsoluteLayout.LayoutBounds="270,56,44.285705566406,47"
 							 >
 
-							<BoxView x:Name="date_cell_ek4"
+                                <BoxView x:Name="date_cell_ek4"
 								Opacity="0"
 								Color="#ffffff"
 								AbsoluteLayout.LayoutBounds="0,0,44.29,47" />
-						</AbsoluteLayout>
+                            </AbsoluteLayout>
 
 
-						
-					</AbsoluteLayout>
 
-				</AbsoluteLayout>
+                        </AbsoluteLayout>
+
+                    </AbsoluteLayout>
 
 
-				<AbsoluteLayout x:Name="calendarie_style"
+                    <AbsoluteLayout x:Name="calendarie_style"
 					 AbsoluteLayout.LayoutBounds="17,48,31,36"
 					 >
 
-					<BoxView x:Name="rect_ngulo_3"
+                        <BoxView x:Name="rect_ngulo_3"
 						CornerRadius="3"
 						Color="#ffffff"
 						AbsoluteLayout.LayoutBounds="0,5,33,33" />
-					<BoxView x:Name="rect_ngulo_5"
+                        <BoxView x:Name="rect_ngulo_5"
 						CornerRadius="1.5"
 						Color="#00d4ff"
 						AbsoluteLayout.LayoutBounds="6,0,4,8" />
-					<BoxView x:Name="rect_ngulo_6"
+                        <BoxView x:Name="rect_ngulo_6"
 						CornerRadius="1.5"
 						Color="#00d4ff"
 						AbsoluteLayout.LayoutBounds="22,0,4,8" />
-					<BoxView x:Name="rect_ngulo_7"
+                        <BoxView x:Name="rect_ngulo_7"
 						CornerRadius="1"
 						Color="#00d4ff"
 						AbsoluteLayout.LayoutBounds="19,23,9,10" />
-					<BoxView x:Name="rect_ngulo_4"
+                        <BoxView x:Name="rect_ngulo_4"
 						CornerRadius="3"
 						Color="#00d4ff"
 						AbsoluteLayout.LayoutBounds="0,5,31,7" />
-				</AbsoluteLayout>
+                    </AbsoluteLayout>
+                    <StackLayout>
+                        <Label x:Name="clockLabel" Text="{Binding CurrentTime}" FontSize="Large" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                    </StackLayout>
 
+                    <StackLayout>
+                        <DatePicker x:Name="miDatePicker" 
+						Format="dd/MM/yyyy"
+						Date="{Binding FechaSeleccionada}" />
+                        <Button Text="Reservar" Clicked="OnReservarClicked">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="BackgroundColor" Value="#2196F3" />
+                                    <Setter Property="TextColor" Value="White" />
+                                    <Setter Property="CornerRadius" Value="9" />
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                        <Label x:Name="fechasReservadasLabel"
+						   FontFamily="Segoe UI"
+						   FontSize="20"
+						   TextColor="#000000"
+						   AbsoluteLayout.LayoutBounds="0,200,356,41"
+						   VerticalOptions="EndAndExpand" />
+                    </StackLayout>
+                    <Image x:Name="caledar"
+					Source="calendario_perrona.png"
+					AbsoluteLayout.LayoutBounds="70,-10,49,49" />
 
-				<AbsoluteLayout x:Name="label"
-					 AbsoluteLayout.LayoutBounds="106,129,43,27"
-					 >
+                </AbsoluteLayout>
 
-					<Label x:Name="_2023"
-						FontFamily="Segoe UI"
-						FontSize="20"
-						TextColor="#000000"
-						AbsoluteLayout.LayoutBounds="0,0,58,41"
-						Text="2023"
-					 />
-				</AbsoluteLayout>
+            </AbsoluteLayout>
 
-			</AbsoluteLayout>
+        </ScrollView>
 
-		</AbsoluteLayout>
-
-		</ScrollView>
-
-	</ContentPage.Content>
+    </ContentPage.Content>
 </ContentPage>
