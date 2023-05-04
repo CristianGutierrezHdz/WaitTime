@@ -28,7 +28,7 @@ namespace WaitTime.Views.Home
 
         private async void Handle_Clicked_apps(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new list_apps());
+            await Navigation.PushAsync(new List_apps());
         }
     }
 }

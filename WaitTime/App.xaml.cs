@@ -1,10 +1,16 @@
-﻿using System;
+﻿using Autofac;
+using Autofac.Core;
+using System;
 using WaitTime.Services;
 using WaitTime.Views;
 using WaitTime.Views.AdobeDesing;
 using WaitTime.Views.Login;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Linq;
+using System.Collections.Generic;
+using Xamarin.Forms.PlatformConfiguration;
 
 namespace WaitTime
 {
@@ -20,9 +26,17 @@ namespace WaitTime
             MainPage = new NavigationPage(new login_view());
 
         }
+
+        
        
         protected override void OnStart()
         {
+            /*
+            var builder = new ContainerBuilder();
+            builder.RegisterType<MyService>().As<IMyService>();
+            var container = builder.Build();
+            */
+
         }
 
         protected override void OnSleep()
@@ -32,5 +46,6 @@ namespace WaitTime
         protected override void OnResume()
         {
         }
+
     }
 }

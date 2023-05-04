@@ -1,16 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <UserSecretsId>3b5cc483-4bf6-44ec-a4fb-34d42b2184b9</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Autofac" Version="7.0.1" />
+    <PackageReference Include="Mono.android-x64" Version="7.0.2.106" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2578" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.4" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Update="Views\AdobeDesing\calendario.xaml.cs">
       <DependentUpon>calendario.xaml</DependentUpon>
     </Compile>
@@ -18,11 +26,15 @@
       <DependentUpon>registro.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\Home\list_apps.xaml.cs">
-      <DependentUpon>list_apps.xaml</DependentUpon>
+      <DependentUpon>List_apps.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\AdobeDesing\calendario.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
@@ -32,7 +44,7 @@
     <EmbeddedResource Update="Views\Home\home_view.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\Home\list_apps.xaml">
+    <EmbeddedResource Update="Views\Home\List_apps.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Login\login_view.xaml">

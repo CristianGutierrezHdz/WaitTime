@@ -1,119 +1,199 @@
-<ContentPage x:Class="WaitTime.Views.Home.list_apps"
-	xmlns="http://xamarin.com/schemas/2014/forms"
-	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-	mc:Ignorable="d"
-	Title="Lista de aplicaciones">
-	<ContentPage.Content>
-		<ScrollView>
-		<AbsoluteLayout>
-			<BoxView x:Name="_bg__iphone_12_pro_max___4"
-				Color="#ffffff"
-				AbsoluteLayout.LayoutBounds="0,0,428,926" />
-			<Image x:Name="candado"
-				Source="candado.png"
-				AbsoluteLayout.LayoutBounds="349,281,47,47" />
-			<BoxView x:Name="rect_ngulo_19"
-				Color="#5dbddb"
-				AbsoluteLayout.LayoutBounds="0,0,428,190" />
-			<Label x:Name="waittime"
-				FontFamily="Segoe UI"
-				HorizontalTextAlignment="Center"
-				FontSize="35"
-				TextColor="#000000"
-				AbsoluteLayout.LayoutBounds="174,87,149,71.5"
-				Text="WaitTime"
-			 />
-			<Image x:Name="hourglass"
-				Source="hourglass.png"
-				AbsoluteLayout.LayoutBounds="96,40,94,94" />
-			<Label x:Name="aplicaciones"
-				FontFamily="Segoe UI"
-				FontSize="21"
-				TextColor="#ffffff"
-				AbsoluteLayout.LayoutBounds="157,141,131,42.5"
-				Text="Aplicaciones"
-			 />
-			<BoxView x:Name="rect_ngulo_24"
-				Color="#5dbddb"
-				AbsoluteLayout.LayoutBounds="0,829,428,102" />
-			<Image x:Name="aplicacion_de_musica"
-				Source="aplicacion_de_musica.png"
-				AbsoluteLayout.LayoutBounds="66,576,45,45" />
-			<Image x:Name="whatsapp"
-				Source="whatsapp.png"
-				AbsoluteLayout.LayoutBounds="60,290,46,46" />
-			<Image x:Name="l_nea_2"
-				Source="l_nea_2.png"
-				AbsoluteLayout.LayoutBounds="190,335.5,200,1" />
-			<Label x:Name="whatsapp_ek1"
-				FontFamily="Segoe UI"
-				FontSize="21"
-				TextColor="#000000"
-				AbsoluteLayout.LayoutBounds="111,301,112,42.5"
-				Text="WhatsApp"
-			 />
-			<Image x:Name="informacion"
-				Source="informacion.png"
-				AbsoluteLayout.LayoutBounds="224,288,31,31" />
-			<Image x:Name="candado_abierto"
-				Source="candado_abierto.png"
-				AbsoluteLayout.LayoutBounds="350,372,46,46" />
-			<Image x:Name="l_nea_3"
-				Source="l_nea_3.png"
-				AbsoluteLayout.LayoutBounds="192,424.5,200,1" />
-			<Label x:Name="tik_tok"
-				FontFamily="Segoe UI"
-				FontSize="21"
-				TextColor="#000000"
-				AbsoluteLayout.LayoutBounds="117,390,80,42.5"
-				Text="Tik Tok"
-			 />
-			<Image x:Name="informacion_ek1"
-				Source="informacion_ek1.png"
-				AbsoluteLayout.LayoutBounds="196,377,31,31" />
-			<Image x:Name="tik_tok_ek1"
-				Source="tik_tok_ek1.png"
-				AbsoluteLayout.LayoutBounds="66,375,45,45" />
-			<Image x:Name="l_nea_4"
-				Source="l_nea_4.png"
-				AbsoluteLayout.LayoutBounds="191,521.5,200,1" />
-			<Label x:Name="facebook"
-				FontFamily="Segoe UI"
-				FontSize="21"
-				TextColor="#000000"
-				AbsoluteLayout.LayoutBounds="115,492,104,42.5"
-				Text="Facebook"
-			 />
-			<Image x:Name="informacion_ek2"
-				Source="informacion_ek2.png"
-				AbsoluteLayout.LayoutBounds="214,485,31,31" />
-			<Image x:Name="facebook_ek1"
-				Source="facebook_ek1.png"
-				AbsoluteLayout.LayoutBounds="65,478,44,44" />
-			<Image x:Name="candado_ek1"
-				Source="candado_ek1.png"
-				AbsoluteLayout.LayoutBounds="349,469,47,47" />
-			<Image x:Name="l_nea_5"
-				Source="l_nea_5.png"
-				AbsoluteLayout.LayoutBounds="192,620.5,200,1" />
-			<Label x:Name="openmusic"
-				FontFamily="Segoe UI"
-				FontSize="21"
-				TextColor="#000000"
-				AbsoluteLayout.LayoutBounds="116,589,121,42.5"
-				Text="OpenMusic"
-			 />
-			<Image x:Name="informacion_ek3"
-				Source="informacion_ek3.png"
-				AbsoluteLayout.LayoutBounds="231,582,31,31" />
-			<Image x:Name="candado_ek2"
-				Source="candado_ek2.png"
-				AbsoluteLayout.LayoutBounds="350,566,47,47" />
-		</AbsoluteLayout>
+<ContentPage x:Class="WaitTime.Views.Home.List_apps"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Lista de aplicaciones">
+    
+    <ContentPage.Content>
+        
+        <ScrollView>
+            <AbsoluteLayout>
+                <BoxView x:Name="_bg__iphone_12_pro_max___4"
+                         Color="#ffffff"
+                         AbsoluteLayout.LayoutBounds="0,0,428,926">
+                </BoxView>
+                <BoxView x:Name="rect_ngulo_19"
+                         Color="#5dbddb"
+                         AbsoluteLayout.LayoutBounds="0,0,428,190">
+                </BoxView>
+                <Label x:Name="waittime"
+                       FontFamily="Segoe UI"
+                       HorizontalTextAlignment="Center"
+                       FontSize="35"
+                       TextColor="#000000"
+                       AbsoluteLayout.LayoutBounds="174,87,149,71.5"
+                       Text="WaitTime">
+                </Label>
+                <Image x:Name="hourglass" Source="hourglass.png" AbsoluteLayout.LayoutBounds="96,40,94,94"/>
+                <Label x:Name="aplicaciones"
+                       FontFamily="Segoe UI"
+                       FontSize="21"
+                       TextColor="#ffffff"
+                       AbsoluteLayout.LayoutBounds="157,142,131,42.5"
+                       Text="Aplicaciones">
+                </Label>
 
-		</ScrollView>
 
-	</ContentPage.Content>
+
+
+                <!-- Time to sleep 00:00 (Guardar) -->
+                <Label x:Name="tiempo_de_sue_o_"
+                       FontFamily="Segoe UI"
+                       FontSize="15"
+                       TextColor="#000000"
+                       AbsoluteLayout.LayoutBounds="66,221,122,29"
+                       Text="Time to sleep:">
+                </Label>
+                <TimePicker x:Name="timePicker1" Format="hh:mm"
+                            FontSize="16"
+                            TextColor="Black"
+                            AbsoluteLayout.LayoutBounds="200,214,51,40">
+
+                </TimePicker>
+                <AbsoluteLayout x:Name="grupo_1" AbsoluteLayout.LayoutBounds="276,215,86,25">
+                    <BoxView x:Name="rect_ngulo_6"
+                             CornerRadius="12.5"
+                             Color="#5dbddb"
+                             AbsoluteLayout.LayoutBounds="0,0,86,25">
+                    </BoxView>
+                </AbsoluteLayout>
+                <Label x:Name="guardar"
+                       FontFamily="Arial"
+                       FontSize="15"
+                       TextColor="#ffffff"
+                       AbsoluteLayout.LayoutBounds="290,219,68,27.5"
+                       Text="Guardar">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="MostrarAlaertaButtonClicked" />
+                    </Label.GestureRecognizers>
+                </Label>
+
+
+
+
+                <!-- Limite diario 00:00 (Guardar) -->
+                <Label  x:Name="limite_diario_"
+                        FontFamily="Segoe UI"
+                        FontSize="15"
+                        TextColor="#000000"
+                        AbsoluteLayout.LayoutBounds="96,261,92,29"
+                        Text="Limite diario:">
+                </Label>
+                <Entry x:Name="txtHora" 
+                       Placeholder="00:00"
+                       Keyboard="Numeric"
+                       TextColor="#000000"
+                       FontSize="16"
+                       AbsoluteLayout.LayoutBounds="203,257,51,40">
+                </Entry>
+                <AbsoluteLayout x:Name="grupo_3" AbsoluteLayout.LayoutBounds="276,255,86,25">
+                    <BoxView x:Name="rect_ngulo_6_ek1"
+                             CornerRadius="12.5"
+                             Color="#5dbddb"
+                             AbsoluteLayout.LayoutBounds="0,0,86,25">
+                    </BoxView>
+                </AbsoluteLayout>
+                <Label x:Name="guardar_ek1"
+                       FontFamily="Arial"
+                       FontSize="15"
+                       TextColor="#ffffff"
+                       AbsoluteLayout.LayoutBounds="290,259,68,27.5"
+                       Text="Guardar">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="MostrarAlaertaButtonClicked" />
+                    </Label.GestureRecognizers>
+                </Label>
+
+
+
+
+                <!-- Tiempo restante: 14:30 / Tiempo consumido: 14:30-->
+                <Label x:Name="miLabel"
+                       FontFamily="Segoe UI"
+                       FontSize="18"
+                       TextColor="#000000"
+                       AbsoluteLayout.LayoutBounds="120,300,247,29"
+                       Text="{Binding Texto}">
+                    <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Handle_Clicked_header" />
+                    </Label.GestureRecognizers>
+                </Label>
+                
+                
+                
+                
+                
+                <Image x:Name="whatsapp"
+                       Source="whatsapp.png"
+                       AbsoluteLayout.LayoutBounds="56,358,39,39">
+                </Image>
+                <Label x:Name="whatsapp_ek1"
+                       FontFamily="Segoe UI"
+                       FontSize="19"
+                       TextColor="#000000"
+                       AbsoluteLayout.LayoutBounds="101,366,102,39.5"
+                       Text="WhatsApp">
+                </Label>
+                <Image x:Name="informacion"
+                       Source="informacion.png"
+                       AbsoluteLayout.LayoutBounds="200,368,23,23">
+                </Image>
+                <Image x:Name="l_nea_2"
+                       Source="l_nea_2.png"
+                       AbsoluteLayout.LayoutBounds="149,399.5,200,1">
+                </Image>
+                <Image x:Name="candado"
+                       Source="candado.png"
+                       AbsoluteLayout.LayoutBounds="340,363,32,32">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+
+
+                <Image x:Name="tik_tok_ek1"
+                       Source="tik_tok_ek1.png"
+                       AbsoluteLayout.LayoutBounds="59,421,33,33">
+                </Image>
+                <Label x:Name="tik_tok"
+                       FontFamily="Segoe UI"
+                       FontSize="19"
+                       TextColor="#000000"
+                       AbsoluteLayout.LayoutBounds="97,428,73,39.5"
+                       Text="Tik Tok">
+                </Label>
+                <Image x:Name="informacion_ek1"
+                       Source="informacion_ek1.png"
+                       AbsoluteLayout.LayoutBounds="166,426,23,23">
+                </Image>
+                <Image x:Name="l_nea_3"
+                       Source="l_nea_3.png"
+                       AbsoluteLayout.LayoutBounds="146,462.5,200,1">
+                </Image>
+                <Image x:Name="candado_abierto"
+                       Source="candado_abierto.png"
+                       AbsoluteLayout.LayoutBounds="337,425,32,32">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+                
+                
+                
+                <StackLayout x:Name="miStackLayout"
+                             AbsoluteLayout.LayoutBounds="97,490,200,42.5">
+                </StackLayout>
+
+
+                <BoxView x:Name="rect_ngulo_24"
+                         Color="#5dbddb"
+                         AbsoluteLayout.LayoutBounds="0,829,428,102">
+                </BoxView>
+            </AbsoluteLayout>
+        </ScrollView>
+    </ContentPage.Content>
+   
 </ContentPage>

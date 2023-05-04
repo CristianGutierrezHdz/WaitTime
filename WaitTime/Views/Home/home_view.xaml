@@ -77,7 +77,8 @@
 					CornerRadius="12"
 					Color="#5ddbba"
 					AbsoluteLayout.LayoutBounds="51,484,329,61" />
-                    <Label x:Name="gestionar_apliaciones"
+                
+                <Label x:Name="gestionar_apliaciones"
 					FontFamily="Segoe UI"
 					FontSize="16"
 					TextColor="#000000"
