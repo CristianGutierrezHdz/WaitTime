@@ -9,7 +9,7 @@
     <ContentPage.Content>
         
         <ScrollView>
-            <AbsoluteLayout>
+            <AbsoluteLayout x:Name="miAbsoluteLayout">
                 <BoxView x:Name="_bg__iphone_12_pro_max___4"
                          Color="#ffffff"
                          AbsoluteLayout.LayoutBounds="0,0,428,926">
@@ -56,7 +56,7 @@
                     <BoxView x:Name="rect_ngulo_6"
                              CornerRadius="12.5"
                              Color="#5dbddb"
-                             AbsoluteLayout.LayoutBounds="0,0,86,25">
+                             AbsoluteLayout.LayoutBounds="0,0,86,30">
                     </BoxView>
                 </AbsoluteLayout>
                 <Label x:Name="guardar"
@@ -81,18 +81,17 @@
                         AbsoluteLayout.LayoutBounds="96,261,92,29"
                         Text="Limite diario:">
                 </Label>
-                <Entry x:Name="txtHora" 
-                       Placeholder="00:00"
-                       Keyboard="Numeric"
-                       TextColor="#000000"
-                       FontSize="16"
-                       AbsoluteLayout.LayoutBounds="203,257,51,40">
-                </Entry>
+                <TimePicker x:Name="txtHora" Format="hh:mm"
+                            FontSize="16"
+                            TextColor="Black"
+                            AbsoluteLayout.LayoutBounds="203,257,51,40">
+
+                </TimePicker>
                 <AbsoluteLayout x:Name="grupo_3" AbsoluteLayout.LayoutBounds="276,255,86,25">
                     <BoxView x:Name="rect_ngulo_6_ek1"
                              CornerRadius="12.5"
                              Color="#5dbddb"
-                             AbsoluteLayout.LayoutBounds="0,0,86,25">
+                             AbsoluteLayout.LayoutBounds="0,0,86,30">
                     </BoxView>
                 </AbsoluteLayout>
                 <Label x:Name="guardar_ek1"
@@ -156,7 +155,7 @@
 
                 <Image x:Name="tik_tok_ek1"
                        Source="tik_tok_ek1.png"
-                       AbsoluteLayout.LayoutBounds="59,421,33,33">
+                       AbsoluteLayout.LayoutBounds="59,426,33,33">
                 </Image>
                 <Label x:Name="tik_tok"
                        FontFamily="Segoe UI"
